@@ -43,10 +43,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/menu" element={<Menu />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about/test" element={<Test />} /> */}
+          <Route path="/about/test" element={<Test />} />
         </Routes>
         <Footer />
       </Router>
